@@ -1,0 +1,20 @@
+dataset:
+  title: "Early detection of septoria infection on wheat leaves using hyperspectral imaging data"
+  persistent_id: "doi:10.57745/WVP0FJ"
+  landing_page: "https://entrepot.recherche.data.gouv.fr/dataset.xhtml?persistentId=doi%3A10.57745%2FWVP0FJ"
+  doi_url: "https://doi.org/10.57745/WVP0FJ"
+  license: "Etalab Open License 2.0"
+  crop: "durum wheat"
+  disease: "Septoria tritici blotch"
+  pathogen: "Zymoseptoria tritici"
+  spectral_ranges: ["VNIR", "SWIR"]
+  expected_observation_dates: 18
+  expected_images_per_spectral_range: 1175
+  expected_leaf_count: 3326
+  metadata_files:
+    - "Data_description.csv"
+    - "VNIR_data.csv"
+    - "SWIR_data.csv"
+  api_base: "https://entrepot.recherche.data.gouv.fr/api"
+paths:
+  metadata_dir: "data/metadata"
