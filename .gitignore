@@ -6,8 +6,8 @@ __pycache__/
 venv/
 .ipynb_checkpoints/
 
-# Local dataset files; do not commit source cubes
- data/raw/
+# Local dataset files; do not commit source cubes or downloaded metadata
+data/raw/
 data/processed/
 data/metadata/
 data/external/
